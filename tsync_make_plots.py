@@ -53,9 +53,9 @@ def plot_kuramoto(N, N_trials):
 
     # The filenames provided:
     filenames_dist_k = {
-        1: 'data_tsync_kuramoto_kij/mean_field_N_25_uniform_mu_1.00_Ntrial_10000.csv',
-        2: 'data_tsync_kuramoto_kij/mean_field_N_25_beta_mu_2.00_Ntrial_10000.csv',
-        3: 'data_tsync_kuramoto_kij/mean_field_N_25_exponential_mu_3.00_Ntrial_10000.csv'
+        1: f'data_tsync_kuramoto_kij/mean_field_N_{N}_uniform_mu_1.00_Ntrial_{N_trials}.csv',
+        2: f'data_tsync_kuramoto_kij/mean_field_N_{N}_beta_mu_2.00_Ntrial_{N_trials}.csv',
+        3: f'data_tsync_kuramoto_kij/mean_field_N_{N}_exponential_mu_3.00_Ntrial_{N_trials}.csv'
     }
 
     for mu in mu_values:
