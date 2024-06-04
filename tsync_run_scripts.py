@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # Parameters
-Ns = [25, 49]  # make sure a perfect square
+Ns = [100]  # make sure a perfect square
 N_trials_list = [10**5]
 scripts = [
     "tsync_kuramoto_mean_field.py",

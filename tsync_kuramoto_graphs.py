@@ -68,7 +68,7 @@ def make_ER(N, p):
     return nx.to_numpy_array(G)
 
 def make_ring(N, k):
-    G = nx.watts_strogatz_graph(N, k, p=0)
+    G = nx.watts_strogatz_graph(N, 2*k, p=0)
     return nx.to_numpy_array(G)
 
 def make_lattice_2d(N, k):
